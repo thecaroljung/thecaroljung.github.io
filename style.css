@@ -1,0 +1,170 @@
+body {
+  margin: auto;
+  width: 80%;
+  background-color: #ddd;
+}
+
+
+@media screen and (max-width : 1824px) {
+  .logo {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #1B1464;
+  }
+  ul li {
+    float: right;
+  }
+  ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 15px 25px;
+      text-decoration: none;
+  }
+  ul li a:hover {
+    background-color: #111;
+  }
+  .landing {
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/wavesBG.png");
+    min-height: 100%;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  .img-header {
+    padding: 100px 0;
+    width: 50%;
+  }
+  .img-works {
+    padding: 10px 0;
+    width: 90%;
+  }
+  .img-table {
+    width: 50%;
+  }
+  .img-about {
+    width: 50%;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .blue-bg {
+    background-color: #1B1464;
+  }
+  .white-bg {
+    background-color: #fff;
+  }
+  .blue-text {
+    color: #1B1464;
+    margin: 0;
+    padding: 0;
+  }
+  .white-text {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .top-padding {
+    padding-top: 40px;
+  }
+  .bottom-padding {
+    padding-bottom: 25px;
+  }
+  .inline-third {
+    display: block;
+    float: left;
+    width: 33.33%;
+  }
+  .inline-half {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+  .table-padding-top {
+    padding-top: 20px;
+  }
+  .quote-padding {
+    padding-top: 5px;
+  }
+  .no-decoration {
+    text-decoration: none;
+  }
+  .quote-font-size {
+    font-size: 25px;
+  }
+  .quote-author-font-size {
+    font-size: 20px;
+  }
+  .about-h3-font-size {
+    font-size: 25px;
+  }
+}
+
+
+@media screen and (max-width : 1024px) {
+  .inline-third {
+    width: 50%;
+  }
+  .quote-font-size {
+    font-size: 20px;
+  }
+  .quote-author-font-size {
+    font-size: 16px;
+  }
+  .about-h3-font-size {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  body {
+    width: 100%;
+  }
+  ul li.logo, ul li {
+    float: none;
+  }
+  .img-header {
+    padding: 70px 0;
+    width: 50%;
+  }
+  .img-about {
+    width: 100%;
+  }
+  .inline-third, .inline-half {
+    float: none;
+    width: 100%;
+  }
+  .quote-font-size {
+    font-size: 15px;
+  }
+  .quote-author-font-size {
+    font-size: 13px;
+  }
+  .about-h3-font-size {
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
