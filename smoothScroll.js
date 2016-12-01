@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("").on('click', function(e) {
+  $("a").on('click', function(e) {
       e.preventDefault();
       var hash = this.hash;
       $('html, body').animate({
